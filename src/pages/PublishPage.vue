@@ -71,7 +71,9 @@ export default {
       editorOption: [
         ['bold', 'italic', 'underline', 'strike'], // 字体
         ['blockquote', 'code-block'],
+        [{ 'header': 1 }, { 'header': 2 }], // 样式标题
         [{ 'list': 'ordered' }, { 'list': 'bullet' }],
+        [{ 'script': 'sub' }, { 'script': 'super' }], // 下标、上标
         [{ 'indent': '-1' }, { 'indent': '+1' }], // 缩进
         [{ 'direction': 'rtl' }],
         [{ 'size': ['small', false, 'large', 'huge'] }], // 字体
